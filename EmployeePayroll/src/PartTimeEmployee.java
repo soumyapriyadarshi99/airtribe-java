@@ -3,12 +3,11 @@ public class PartTimeEmployee extends Employee {
     private double hourlyRate;
 
     public PartTimeEmployee(String name, int id, double hourlyRate, int hoursWorked) {
-        super(name, id, 0); // base salary not used
+        super(name, id, 0);
         this.hourlyRate = hourlyRate;
         this.hoursWorked = hoursWorked;
     }
 
-    @Override
     public double calculatePay() {
         return hoursWorked * hourlyRate;
     }
