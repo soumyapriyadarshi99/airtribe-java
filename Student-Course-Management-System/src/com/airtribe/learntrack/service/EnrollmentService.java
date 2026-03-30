@@ -39,7 +39,7 @@ public class EnrollmentService {
             if (enrollment.getId() == enrollmentId) {
                 enrollment.setStatus(status);
                 System.out.println("Enrollment status updated to: " + status);
-                return; // stop looping once found
+                return;
             }
         }
         throw new EntityNotFoundException("Enrollment not found with ID: " + enrollmentId);
