@@ -1,21 +1,21 @@
 package com.airtribe.ridewise.model;
 
 public class Rider {
-    Long id;
+    String id;
     String name;
     String location;
 
-    public Rider(Long id, String name, String location) {
+    public Rider(String id, String name, String location) {
         this.id = id;
         this.name = name;
         this.location = location;
     }
 
-    public Long getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(String id) {
         this.id = id;
     }
 

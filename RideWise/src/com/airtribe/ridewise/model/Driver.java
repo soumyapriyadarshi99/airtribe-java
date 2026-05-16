@@ -1,13 +1,13 @@
 package com.airtribe.ridewise.model;
 
 public class Driver {
-    Long id;
+    String id;
     String name;
     String location;
     boolean available;
     int totalRidesCompleted;
 
-    public Driver(Long id, String name, String location, boolean available, int totalRidesCompleted) {
+    public Driver(String id, String name, String location, boolean available, int totalRidesCompleted) {
         this.id = id;
         this.name = name;
         this.location = location;
@@ -15,11 +15,11 @@ public class Driver {
         this.totalRidesCompleted = totalRidesCompleted;
     }
 
-    public Long getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(String id) {
         this.id = id;
     }
 
