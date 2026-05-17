@@ -1,5 +1,5 @@
 package com.airtribe.ridewise.model;
 
-public enum RiderStatus {
+public enum RideStatus {
     REQUESTED, ASSIGNED, COMPLETED, CANCELLED
 }

@@ -1,22 +1,22 @@
 package com.airtribe.ridewise.model;
 
 public class Ride {
-    Long id;
+    String id;
     Rider rider;
     Driver driver;
     double distance;
     String status;
 
 
-    public Ride(Long id, Rider rider, double distance) {
+    public Ride(String id, Rider rider, double distance) {
         this.id = id;
         this.rider = rider;
         this.driver = null;
         this.distance = distance;
-        this.status = String.valueOf(RiderStatus.REQUESTED);
+        this.status = String.valueOf(RideStatus.REQUESTED);
     }
 
-    public Long getId() {
+    public String getId() {
         return id;
     }
 
@@ -35,7 +35,7 @@ public class Ride {
     public String getStatus() {
         return status;
     }
-    public void setId(Long id) {
+    public void setId(String id) {
         this.id = id;
     }
 
