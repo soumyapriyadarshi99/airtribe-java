@@ -36,4 +36,13 @@ public class FareReceipt {
     public void setGeneratedAt(LocalDateTime generatedAt) {
         this.generatedAt = generatedAt;
     }
+
+    @Override
+    public String toString() {
+        return "{" +
+                "riderId='" + riderId + '\'' +
+                ", amount=" + amount +
+                ", generatedAt=" + generatedAt +
+                '}';
+    }
 }

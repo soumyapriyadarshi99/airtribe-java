@@ -54,4 +54,15 @@ public class Driver {
     public void setTotalRidesCompleted(int totalRidesCompleted) {
         this.totalRidesCompleted = totalRidesCompleted;
     }
+
+    @Override
+    public String toString() {
+        return "{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", location='" + location + '\'' +
+                ", available=" + available +
+                ", totalRidesCompleted=" + totalRidesCompleted +
+                '}';
+    }
 }

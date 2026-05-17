@@ -1,6 +1,5 @@
 package com.airtribe.ridewise.service;
 
-import com.airtribe.ridewise.model.Driver;
 import com.airtribe.ridewise.model.Rider;
 import com.airtribe.ridewise.util.IdGenerator;
 

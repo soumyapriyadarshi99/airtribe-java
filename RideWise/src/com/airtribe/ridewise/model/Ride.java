@@ -55,4 +55,14 @@ public class Ride {
         this.status = status;
     }
 
+    @Override
+    public String toString() {
+        return "{" +
+                "id='" + id + '\'' +
+                ", rider=" + rider +
+                ", driver=" + driver +
+                ", distance=" + distance +
+                ", status='" + status + '\'' +
+                '}';
+    }
 }
