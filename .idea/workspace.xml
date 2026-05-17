@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30927683-a069-41e6-9f85-8d0d6bd160bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Factory-Pattern-Payment-System/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory-Pattern-Payment-System/src/com/soumya/payment/factory/PaymentFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory-Pattern-Payment-System/src/com/soumya/payment/impl/CreditCardPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory-Pattern-Payment-System/src/com/soumya/payment/impl/PaypalPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory-Pattern-Payment-System/src/com/soumya/payment/impl/UpiPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory-Pattern-Payment-System/src/com/soumya/payment/model/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory-Pattern-Payment-System/src/com/soumya/payment/types/PaymentType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="30927683-a069-41e6-9f85-8d0d6bd160bd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

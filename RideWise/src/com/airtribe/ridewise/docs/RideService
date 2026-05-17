@@ -1,0 +1,20 @@
+RideService has three main jobs:
+
+1. Request a ride
+
+Find an available driver using the matching strategy
+Create the ride
+Assign driver to ride
+
+
+2. Complete a ride
+
+Mark ride as completed
+Free up the driver
+Calculate and return fare receipt
+
+
+3. Cancel a ride
+
+Mark ride as cancelled
+Free up the driver
